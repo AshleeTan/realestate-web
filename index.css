@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.property-image-gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #21282e;
+}
+
+.property-image-gallery {
+  width: 800px;
+  height: 460px;
+}
