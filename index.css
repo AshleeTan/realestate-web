@@ -1,6 +1,9 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333f48;
+  line-height: 1.5;
 }
 
 .property-image-gallery-container {
@@ -13,4 +16,40 @@ body {
 .property-image-gallery {
   width: 800px;
   height: 460px;
+}
+
+.property-summary {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.property-details {
+  padding: 0 15px;
+}
+
+.property-address {
+  margin: 0 0 12px 0;
+}
+
+.property-info-address-street {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.property-info-address-suburb {
+  font-weight: 400;
+  color: #697684;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.property-feature {
+  color: #697684;
+  margin: 0 0 12px 0;
+}
+
+.property-feature .fa-bath, .property-feature .fa-car {
+  margin-left: 4px;
 }
