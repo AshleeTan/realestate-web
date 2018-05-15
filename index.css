@@ -122,4 +122,20 @@ body {
   width: 100%;
   height: 240px;
   border: 1px solid #d2d6da;
+  margin: 0 0 16px 0;
+}
+
+.description-header {
+  margin: 0 0 16px 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.read-more-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.read-more-container>a {
+  color: #333f48;
 }
