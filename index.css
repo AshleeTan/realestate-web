@@ -122,7 +122,12 @@ body {
   width: 100%;
   height: 240px;
   border: 1px solid #d2d6da;
-  margin: 0 0 16px 0;
+  margin: 0 0 26px 0;
+}
+
+.property-description {
+  padding: 0 0 26px 0;
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .description-header {
@@ -138,4 +143,45 @@ body {
 
 .read-more-container>a {
   color: #333f48;
+}
+
+.suburb-container {
+  padding: 0 0 26px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.suburb-profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suburb-description {
+  margin-right: 0;
+  color: #697684;
+  font-size: 14px;
+  max-width: 300px;
+}
+
+.suburb-link {
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 400;
+  text-decoration-line: none;
+}
+
+.suburb-link:hover {
+  color: #333f48;
+  border-color: #333f48;
+}
+
+.suburb-profile {
+  color: #2d71d7;
+  border: 2px solid #2d71d7;
+}
+
+.investment-insights {
+  color: #00beb3;
+  border: 2px solid #00beb3;
+  margin-left: 10px;
 }
