@@ -191,6 +191,7 @@ body {
 .nearby-schools {
   padding: 0 0 26px 0;
   border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 16px;
 }
 
 .nearby-schools-table {
@@ -236,4 +237,76 @@ body {
 
 .nearby-schools-data>p:last-child {
   padding: 0 50px;
+}
+
+.recent-sales {
+  margin-bottom: 16px;
+}
+
+.recent-sales .property {
+  height: 76px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.recent-sales .property>a {
+  text-decoration-line: none;
+  color: #333f48;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.recent-sales .property>a:visited {
+  color: #333f48;
+}
+
+.recent-sales .property .image {
+  width: 100px;
+  height: 75px;
+}
+
+.recent-sales .property .property-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent-sales .property .property-container .image-address {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.recent-sales .property .property-container .address-feature {
+  margin-left: 12px;
+}
+
+.recent-sales .property .property-container .feature .fa-bath,
+.recent-sales .property .property-container .feature .fa-car {
+  margin-left: 8px;
+}
+
+.recent-sales .property .property-container .date {
+  font-weight: 300;
+}
+
+.recent-sales .property .property-container .price-date {
+  display: flex;
+  align-items: center;
+}
+
+.sold-price {
+  display: flex;
+  justify-content: space-between;
+  color: #697684;
+  font-size: 13px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.sold-price a {
+  color: #697684;
+} 
+
+.sold-price img {
+  max-height: 30px;
 }
